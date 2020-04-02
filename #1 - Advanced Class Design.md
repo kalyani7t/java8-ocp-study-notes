@@ -6,7 +6,7 @@
 These are ```private```, no modifier(the default or aka package-private), ```protected``` and ```public```:
 - **private**: Only accessible within the class.
 - **no-modifier**: Is the **default** and used if any other access modifier keyword is missing. Only code in the same package can access code with default access.
-- **protected**: It allows subclasses and code in the same package to access members. If in a different package, the member is only accessible through inheritance otherwise it errors.
+- **protected**: It allows subclasses and code in the same package to access members. If in a different package, the member is only accessible through inheritance otherwise it errors. For instance, if you try to access the variable/field on object of parent class (using dot operator) it will result in error, you can access only within/from inside of child class.
 - **public**: Any code can access public members.
 
 ![access modifiers diagram](img/accessModifiers.png)
